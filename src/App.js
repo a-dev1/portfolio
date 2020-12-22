@@ -1,8 +1,11 @@
+import React from 'react';
 import './App.css';
+
+import NavBar from './component/navbar/navbar.component'
 
 function App() {
   return (
-    <h1>Starting a New Project which is my first portfolio</h1>
+    <NavBar />
   );
 }
 

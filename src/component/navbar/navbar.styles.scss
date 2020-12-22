@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.nav-bar {
+  color: #36aa92;
+  display: flex;
+  padding: 20px 80px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    width: 40%;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    // padding: 20px;
+    font-size: 24px;
+    width: 60%;
+
+    li {
+      list-style: none;
+
+      a {
+        position: relative;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #36aa92;
+        transition: all 0.3s ease-in-out;
+        padding: 0px 10px;
+      }
+
+      a::before {
+        content: '';
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        width: 10px;
+        height: 10px;
+        border: 3px solid #36aa92;
+        border-width: 0 0 3px 3px;
+        /*top right bottom left*/
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+      }
+
+      a:hover::before {
+        left: -10px;
+        bottom: -10px;
+        opacity: 1;
+      }
+
+      a::after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        top: 10px;
+        right: 10px;
+        /* changed top and right values due to animation */
+        border: 3px solid #36aa92;
+        /* original */
+        border-width: 3px 3px 0 0;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+      }
+
+      a:hover::after {
+        top: -10px;
+        right: -10px;
+        opacity: 1;
+      }
+
+      a:hover {
+        color: white;
+        background-color: #36aa92;
+      }
+    }
+  }
+
+}
