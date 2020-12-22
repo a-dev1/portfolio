@@ -10,7 +10,11 @@ function App() {
     
       <div className="Home">
         <div className="intro">
-
+          <h1>Hey!!! there</h1>
+          <p>
+            I am <span>Aditya Sharma</span>, 
+            A Web Developer
+          </p>
         </div>
         <div className="intro-image">
           
