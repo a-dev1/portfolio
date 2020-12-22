@@ -6,9 +6,10 @@ import NavBar from './component/navbar/navbar.component'
 function App() {
   return (
     <div>
-      <NavBar />
+      <NavBar className='nav-bar'/>
     
       <div className="Home">
+
       </div>
     </div>
   );
