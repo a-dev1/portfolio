@@ -9,7 +9,12 @@ function App() {
       <NavBar className='nav-bar'/>
     
       <div className="Home">
+        <div className="intro">
 
+        </div>
+        <div className="intro-image">
+          
+        </div>
       </div>
     </div>
   );
