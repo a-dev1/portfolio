@@ -33,8 +33,8 @@ const Home = () => (
 )
 
 const About = () => (
-  <div>
-    
+  <div className="About">
+
   </div>
 )
 
@@ -43,7 +43,7 @@ function App() {
     <div>
       <Home /> 
       <div className="About">
-        <h1></h1>
+        <h1>About me</h1>
       </div>
     </div>
   );
