@@ -4,8 +4,8 @@ import './navbar.styles.scss';
 
 const NavBar = () => (
   <div className="nav-bar">
-    <div className="logo">ADITYA &nbsp;&nbsp;&nbsp;&nbsp;SHARMA</div>
-    
+    <div className="logo">ADITYA &nbsp;&nbsp;&nbsp;;SHARMA</div>
+
     <ul>
       <li><a href="#Home">HOME</a></li>
       <li><a href="#About">ABOUT</a></li>
