@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&display=swap');
+
+:root {
+  --green: #36aa92;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #100e17;
+}
+
+.Home {
+  height: calc(100vh - 88.4px);
+  width: 100%;
+  border-bottom: 1px solid #36aa92;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 80px;
+
+  .intro-container {
+    width: 50%;
+
+    .intro {
+      height: 100%;
+      text-align: left;
+      font-size: 30px;
+
+      .hello-line {
+        background-color: #36aa92;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        padding: 8px 16px;
+        font-size: 22px;
+        position: relative;
+      }
+
+
+      .name {
+        font-size: 50px;
+        color: #36aa92;
+      }
+    }
+
+    .button-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px 0;
+
+      .say-hello-btn,
+      .about-me-btn {
+        padding: 10px 20px;
+        font-size: 24px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+      }
+
+      .say-hello-btn {
+        background-color: #36aa92;
+        border: 1px solid #36aa92;
+        transition: all 0.1s linear;
+      }
+
+      .say-hello-btn:hover {
+        background-color: #100e17;
+        border: 1px solid #36aa92;
+        color: #36aa92;
+      }
+
+      .say-hello-btn:active, .about-me-btn:active {
+        transform: translateY(2px);
+
+      }
+
+      .about-me-btn {
+        background-color: #100e17;
+        color: #36aa92;
+        border: 1px solid #36aa92;
+        margin: 0 20px;
+        transition: all 0.1s linear;
+      }
+
+      .about-me-btn:hover {
+        background-color: #36aa92;
+        color: #fff;
+        border: 1px solid #36aa92;
+      }
+    }
+  }
+
+  .intro-image-container {
+
+    .intro-image {
+      width: 500px;
+    }
+
+  }
+}
