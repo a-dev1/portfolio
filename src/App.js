@@ -32,6 +32,12 @@ const Home = () => (
     </div>
 )
 
+const About = () => (
+  <div>
+    
+  </div>
+)
+
 function App() {
   return (
     <div>
