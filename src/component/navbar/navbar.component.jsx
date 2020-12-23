@@ -7,10 +7,10 @@ const NavBar = () => (
     <div className="logo">ADITYA SHARMA</div>
 
     <ul>
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">PROJECTS</a></li>
-      <li><a href="#">CONTACT</a></li>
+      <li><a href="#Home">HOME</a></li>
+      <li><a href="#About">ABOUT</a></li>
+      <li><a href="#Projects">PROJECTS</a></li>
+      <li><a href="#Contact">CONTACT</a></li>
     </ul>
   </div>
 )

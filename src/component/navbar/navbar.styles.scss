@@ -15,6 +15,11 @@
     font-family: 'Monoton', cursive;
     font-size: 30px;
     width: 40%;
+    transition: 0.2s;
+
+    &:hover {
+      color: #fff;
+    }
   }
 
   ul {
@@ -81,7 +86,7 @@
       }
 
       a:hover {
-        color: white;
+        color: #100e17;
         background-color: #36aa92;
       }
     }

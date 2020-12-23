@@ -1,0 +1,41 @@
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #100e17;
+  border: 1px solid #36aa92;
+  color: #36aa92;
+}
+
+button:hover {
+  background-color: #36aa92;
+  border: 1px solid #36aa92;
+  transition: all 0.1s linear;
+  color: #100e17;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.small {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.simple {
+  background-color: #100e17;
+  color: #36aa92;
+  border: none;
+
+  &:hover {
+    background-color: #100e17;
+    color: #36aa92;
+    border: none;
+  }
+  &:active {
+    transform: translateX(2px);
+  }
+}

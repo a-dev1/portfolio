@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.scss';
 
+import CustomButton from './component/custom-button/custom-button.component'
 import {ReactComponent as IntroImage } from './assets/intro-image.svg'
 import NavBar from './component/navbar/navbar.component'
 
-function App() {
-  return (
-    <div>
+
+const Home = () => (
+  <div>
       <NavBar className='nav-bar'/>
     
       <div className="Home">
@@ -15,11 +16,11 @@ function App() {
           <p className="intro">
             <span className="hello-line">Hello!!! I'm</span> <br />
             <span className="name">Aditya Sharma,</span><br /> 
-            A Web Developer
+            A critical thinker, curious, creative, Web Developer
           </p>
           <div className="button-container">
-            <button className="say-hello-btn">SAY HELLO</button>
-            <button className="about-me-btn">ABOUT ME</button>   
+            <CustomButton value="SAY HELLO" type="submit" size="big"/>
+            <CustomButton value="Explore more->" size="big" style="simple"/>
           </div>
         </div>
 
@@ -29,7 +30,11 @@ function App() {
 
       </div>
     </div>
+)
+
+function App() {
+  return (
+    <Home />
   );
 }
-
 export default App;
