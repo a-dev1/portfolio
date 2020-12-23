@@ -46,7 +46,9 @@ function App() {
         <h1>About me</h1>
         <p>
           I am a 3rd year computer engineering student, who wanted to become a full- stack developer and wanted to master all the skills I am learning.
+          I wanted to experience the real world scenario of working with teams and organizations.
         </p>
+        
       </div>
     </div>
   );
