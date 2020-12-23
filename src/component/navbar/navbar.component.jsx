@@ -4,13 +4,13 @@ import './navbar.styles.scss';
 
 const NavBar = () => (
   <div className="nav-bar">
-    <div className="logo">ADITYA &nbsp;SHARMA</div>
+    <div className="logo">ADITYA SHARMA</div>
 
     <ul>
-      <li><a href="#Home">HOME</a></li>
-      <li><a href="#About">ABOUT</a></li>
-      <li><a href="#Projects">PROJECTS</a></li>
-      <li><a href="#Contact">CONTACT</a></li>
+      <li><a href="#Home">home</a></li>
+      <li><a href="#About">about</a></li>
+      <li><a href="#Projects">project</a></li>
+      <li><a href="#Contact">contact</a></li>
     </ul>
   </div>
 )
