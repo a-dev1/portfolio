@@ -34,7 +34,12 @@ const Home = () => (
 
 function App() {
   return (
-    <Home />
+    <div>
+      <Home /> 
+      <div className="About">
+        <h1></h1>
+      </div>
+    </div>
   );
 }
 export default App;
